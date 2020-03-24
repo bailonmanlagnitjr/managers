@@ -1,9 +1,10 @@
 #Load managers dataset from github
 
-df <- read.table("https://s3.amazonaws.com/assets.datacamp.com/blog_assets/test.csv", 
-                 header = FALSE,
-                 sep = ",")
+getwd()
 
+new_managers_data <- read.csv("MoreData.csv")
+
+str(new_managers_data)
 #show structure
 #choose records we need to merge
 #convert date field
