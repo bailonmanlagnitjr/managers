@@ -24,5 +24,3 @@
   plot(dose, drugA, type = "b")
   par(opar)
   
-  
-  
